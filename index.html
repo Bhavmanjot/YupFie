@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <title>YupFie</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <header id="logo">
+        <div class="dropdown">
+        <button id="bars">
+        <i class="fa fa-bars"></i>
+        </button>
+        <div class="dropdown-content">
+        <a href="signup.html"><i class="fa fa-user-plus"></i>  Sign Up</a>
+        <a href="signin.html"><i class="fa fa-sign-in"></i>  Sign In</a>
+        <a href="more.html"><i class="fa fa-info-circle"></i> About</a>
+       </div>
+       </div>
+        <text><a href="">YupFie</a></text>
+        <i class="fa fa-search"></i>
+        </header>
+    </body>
+    <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.12.1/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.12.1/firebase-analytics.js";
+  import { getPerformance } from "https://www.gstatic.com/firebasejs/9.12.1/firebase-performance.js";
+
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyD0dNLxllpgAmBIRccwfRru4vwahOC5BJU",
+    authDomain: "yupfie-9b591.firebaseapp.com",
+    projectId: "yupfie-9b591",
+    storageBucket: "yupfie-9b591.appspot.com",
+    messagingSenderId: "150689725877",
+    appId: "1:150689725877:web:d5d87e92427eb567be6dfc",
+    measurementId: "G-J9F305KPKE"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+  const perf = getPerformance(app);
+</script>
+</html>
